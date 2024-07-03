@@ -12278,10 +12278,6 @@ span {
   color: #ffb03b;
 }
 
-h2, .h2, p {
-  color: #fff;
-}
-
 .carousel-item .card-img-overlay {
   display: flex;
   flex-direction: column;
@@ -12290,8 +12286,12 @@ h2, .h2, p {
   gap: 3vh;
 }
 .carousel-item .card-img-overlay p {
+  color: #fff;
   width: 50vw;
   text-align: center;
+}
+.carousel-item .card-img-overlay h2, .carousel-item .card-img-overlay .h2 {
+  color: #fff;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
