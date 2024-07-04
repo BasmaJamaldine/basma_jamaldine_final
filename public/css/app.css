@@ -12215,7 +12215,7 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgba(60, 58, 57, 0.4117647059);
+  background-color: #3c3a39;
   opacity: 0.9;
   align-items: center;
   padding: 3vh 0vw;
@@ -12318,6 +12318,18 @@ span {
   opacity: 0.6;
 }
 
+h2, .h2 {
+  font-family: "Satisfy", cursive, sans-serif;
+  font-weight: bolder;
+  color: #5f5950;
+}
+
+h3, .h3 {
+  font-family: "Satisfy", cursive, sans-serif;
+  color: #5f5950;
+  font-size: xx-large;
+}
+
 .section-icons-para {
   padding-left: 1vw;
   display: flex;
@@ -12361,12 +12373,18 @@ span {
   justify-content: start;
   gap: 2vh;
 }
+.box h2, .box .h2 {
+  font-size: 20px;
+}
 .box:hover {
   background-color: #ffb03b;
   color: #fff;
   padding-top: 20px;
   padding-bottom: 30px;
   transition: 1s;
+}
+.box:hover h2, .box:hover .h2 {
+  color: #fff;
 }
 .box:hover p {
   opacity: 1;
@@ -12381,6 +12399,29 @@ span {
 .box span {
   font-size: 20px;
   font-weight: bolder;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3vh;
+  background-color: #35322d;
+  padding: 4vh 0vw;
+  color: #fff;
+}
+.footer h3, .footer .h3 {
+  color: #ffb03b;
+}
+.footer .footer-icons i {
+  border-radius: 50%;
+  background-color: #645c5c;
+  padding: 8px 10px;
+}
+.footer .footer-icons i:hover {
+  background-color: #ffb03b;
 }
 
 /*# sourceMappingURL=app.css.map */
