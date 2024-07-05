@@ -12215,6 +12215,12 @@ textarea.form-control-lg {
   font-family: basma;
   src: url(../fonts/Satisfy-Regular.ttf);
 }
+@font-face {
+  font-family: fontpara;
+  src: url(../fonts/Poppins-ExtraLight.ttf);
+  font-size: 16px;
+  font-weight: bold;
+}
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -12297,6 +12303,7 @@ span {
   color: #fff;
   width: 50vw;
   text-align: center;
+  font-family: fontpara;
 }
 .carousel-item .card-img-overlay h2, .carousel-item .card-img-overlay .h2 {
   color: #fff;
@@ -12315,6 +12322,12 @@ span {
 @font-face {
   font-family: basma;
   src: url(../fonts/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: fontpara;
+  src: url(../fonts/Poppins-ExtraLight.ttf);
+  font-size: 16px;
+  font-weight: bold;
 }
 .about {
   display: flex;
@@ -12498,9 +12511,10 @@ form .forms-row3 textarea {
   padding: 30px;
 }
 .Menu p {
-  color: #8a8888;
+  color: #3b3838;
   font-style: italic;
-  font-size: small;
+  font-size: medium;
+  font-family: fontpara;
 }
 .Menu h3, .Menu .h3 {
   font-weight: bolder;
@@ -12543,6 +12557,7 @@ form .forms-row3 textarea {
   text-align: center;
 }
 .book-table .para_book p {
+  font-family: fontpara;
   width: 40vw;
 }
 .book-table button {
@@ -12758,7 +12773,7 @@ form .forms-row3 textarea {
   background-color: #35322d;
   padding: 4vh 0vw;
   color: #fff;
-  width: 99vw;
+  width: 98;
 }
 .footer h3, .footer .h3 {
   color: #ffb03b;
@@ -12770,6 +12785,10 @@ form .forms-row3 textarea {
 }
 .footer .footer-icons i:hover {
   background-color: #ffb03b;
+}
+
+p {
+  font-family: fontpara;
 }
 
 /*# sourceMappingURL=app.css.map */
