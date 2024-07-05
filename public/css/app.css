@@ -12211,6 +12211,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: basma;
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -12292,6 +12296,7 @@ span {
 }
 .carousel-item .card-img-overlay h2, .carousel-item .card-img-overlay .h2 {
   color: #fff;
+  font-size: 50px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -12303,6 +12308,10 @@ span {
   background-color: #6f6b63;
 }
 
+@font-face {
+  font-family: basma;
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
 .about {
   display: flex;
   flex-direction: row;
@@ -12595,6 +12604,7 @@ form .forms-row3 textarea {
 .info-img h3, .info-img .h3 {
   color: #fff;
   padding-top: 2vh;
+  font-family: basma;
 }
 .info-img h6, .info-img .h6 {
   font-size: small;
@@ -12603,6 +12613,23 @@ form .forms-row3 textarea {
   border-radius: 50%;
   width: 10vw;
   border: 7px solid rgba(78, 67, 58, 0.631372549);
+}
+
+.btn-fixed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  background-color: #fd7e14;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  z-index: 99999999;
+  border-radius: 50%;
+}
+.btn-fixed i {
+  color: white;
 }
 
 .para-gallery p {
