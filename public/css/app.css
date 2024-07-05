@@ -12215,12 +12215,6 @@ textarea.form-control-lg {
   font-family: basma;
   src: url(../fonts/Satisfy-Regular.ttf);
 }
-@font-face {
-  font-family: fontpara;
-  src: url(../fonts/Poppins-ExtraLight.ttf);
-  font-size: 16px;
-  font-weight: bold;
-}
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -12292,6 +12286,15 @@ span {
   color: #ffb03b;
 }
 
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #0e0d0d;
+  opacity: 0.7;
+}
 .carousel-item .card-img-overlay {
   display: flex;
   flex-direction: column;
@@ -12304,6 +12307,7 @@ span {
   width: 50vw;
   text-align: center;
   font-family: fontpara;
+  font-size: large;
 }
 .carousel-item .card-img-overlay h2, .carousel-item .card-img-overlay .h2 {
   color: #fff;
@@ -12322,12 +12326,6 @@ span {
 @font-face {
   font-family: basma;
   src: url(../fonts/Satisfy-Regular.ttf);
-}
-@font-face {
-  font-family: fontpara;
-  src: url(../fonts/Poppins-ExtraLight.ttf);
-  font-size: 16px;
-  font-weight: bold;
 }
 .about {
   display: flex;
@@ -12511,10 +12509,11 @@ form .forms-row3 textarea {
   padding: 30px;
 }
 .Menu p {
-  color: #3b3838;
+  color: #030303;
   font-style: italic;
   font-size: medium;
   font-family: fontpara;
+  opacity: 0.6;
 }
 .Menu h3, .Menu .h3 {
   font-weight: bolder;
@@ -12711,13 +12710,6 @@ form .forms-row3 textarea {
   background-repeat: no-repeat;
   position: relative;
 }
-.chefs::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-}
 
 .sepecial-menu {
   padding: 10px 12px 10px 28px;
@@ -12755,9 +12747,6 @@ form .forms-row3 textarea {
   justify-content: center;
   font-weight: bold;
 }
-.sepecial-menu p {
-  opacity: 0.5;
-}
 
 .nav {
   text-align: start;
@@ -12785,10 +12774,6 @@ form .forms-row3 textarea {
 }
 .footer .footer-icons i:hover {
   background-color: #ffb03b;
-}
-
-p {
-  font-family: fontpara;
 }
 
 /*# sourceMappingURL=app.css.map */
