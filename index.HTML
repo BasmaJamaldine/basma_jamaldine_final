@@ -9,12 +9,14 @@
 </head>
 
 <body>
-    <div class="nav-bar">
+    <div class="menu-bar">
         <div class="logo">
             <a href="#">Delicious</a>
         </div>
-        <div class="nav-right">
-            <div class="nav-menu">
+        <input id="Check" type="checkbox" >
+        <div class="menu-right">
+            <div class="menu">
+                <a href="./index.HTML" class="icons-none"><i class="bi bi-x-circle text-danger text-end"></i></a>
                 <a href=""> Home</a>
                 <a href="#about">About</a>
                 <a href="#menu">Menu</a>
@@ -26,12 +28,12 @@
                 <a href="#contact">Contact</a>
 
             </div>
-
             <div class="btn-table">
                 <button>Book a table</button>
             </div>
 
         </div>
+        <label for="Check" class="label"> <i class="bi bi-list"></i></label>
 
 
 
@@ -367,14 +369,14 @@
             </div>
         </div>
     </div>
-    <div class="sepecial-menu" id="specials">
-        <div class="title-special p-5">
+    <div class="sepecial-menu d-flex flex-column gap-5" id="specials">
+        <div class="title-special p-lg-5">
             <h3 class="fw-bold">Check our <span> Specials<span></h3>
             <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
                 vitae autem</p>
         </div>
 
-        <div class="d-flex  flex-row gap-5  ">
+        <div class="groud-special d-flex  flex-row gap-5  ">
             <div class="nav d-flex flex-column gap-2 text-start " id="v-pills-tab" role="tablist"
                 aria-orientation="vertical">
                 <button class="nav-link active  btn-special" id="v-pills-home-tab" data-bs-toggle="pill"
@@ -396,7 +398,7 @@
             <div class="tab-content " id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                     aria-labelledby="v-pills-home-tab" tabindex="0">
-                    <div class="d-flex  flex-row gap-5 ">
+                    <div class="img-special d-flex  flex-row gap-5 ">
                         <div class="right-special">
                             <h3>Architecto ut aperiam autem id</h3>
                             <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna
@@ -414,7 +416,7 @@
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
                     tabindex="0">
-                    <div class="d-flex flex-row gap-5 ">
+                    <div class=" img-special d-flex flex-row gap-5 ">
                         <div class="right-special">
                             <h3>Et blanditiis nemo veritatis excepturi</h3>
                             <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata
@@ -434,7 +436,7 @@
                 </div>
                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
                     tabindex="0">
-                    <div class="d-flex flex-row gap-5 ">
+                    <div class=" img-special d-flex flex-row gap-5 ">
                         <div class="right-special">
                             <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
                             <p>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt
@@ -450,7 +452,7 @@
                 </div>
                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"
                     tabindex="0">
-                    <div class="d-flex flex-row gap-5 ">
+                    <div class="img-special d-flex flex-row gap-5 ">
                         <div class="right-special">
                             <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
                             <p>Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
@@ -466,7 +468,7 @@
                 </div>
                 <div class="tab-pane fade" id="v-pills-programm" role="tabpanel" aria-labelledby="v-pills-settings-tab"
                     tabindex="0">
-                    <div class="d-flex  flex-row gap-5">
+                    <div class="img-special d-flex  flex-row gap-5">
                         <div class="right-special">
                             <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
                             <p>Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
@@ -495,8 +497,8 @@
                 </h2>
                 <div class="carousel-item active">
                     <div class="row-events ps-5 pb-5">
-                        <img src="./public/images/event-birthday.jpg" width="580px" alt="" class="d-block ">
-                        <div class="right-events d-flex flex-column gap-2">
+                        <img src="./public/images/event-birthday.jpg" alt="" class="d-block w-50">
+                        <div class="right-events d-flex flex-column gap-2 ">
                             <h3 class="text-tableh">Birthday parties</h3>
                             <span>$189</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate, ducimus
@@ -527,7 +529,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="row-events ps-5 pb-5">
-                        <img src="./public/images/event-private.jpg" width="580px" alt="" class="d-block ">
+                        <img src="./public/images/event-private.jpg"  alt="" class="d-block w-50">
                         <div class="right-events d-flex flex-column gap-2">
                             <h3 class="text-tableh">Private parties</h3>
                             <span>$290</span>
@@ -559,7 +561,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="row-events ps-5 pb-5">
-                        <img src="./public/images/event-birthday.jpg" width="580px" alt="" class="d-block ">
+                        <img src="./public/images/event-private.jpg"  alt="" class="d-block w-50 ">
                         <div class="right-events d-flex flex-column gap-2">
                             <h3 class="text-tableh">Custom parties</h3>
                             <span>$99</span>
@@ -652,63 +654,55 @@
         </div>
 
     </div>
-    <div class="chefs" id="chefs">
-        <div class="title-chefs d-flex flex-column justify-content-center align-items-center pt-5">
-            <h2 class="text-black ">Our Proffesional <span>Chefs</span></h2>
-            <P class="w-50 text-center">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci
-                expedita at voluptas atque vitae autem.</P>
+    <div class="chefs">
 
+        <div class="row container mx-auto pb-4">
+            <div class="col-md-4 mt-4">
+                <div class="card position-relative mb-6">
+                    <img src="./public/images/chefs/chefs-1.jpg" class="card-img-top" alt="..." >
+                    <div class="card-body text-center position-absolute top-100 start-50 w-75 translate-middle bg-white">
+                      <p class="card-text text-black">Wa<span class="border-bottom pb-2 border-yellow border-1 ">lter W</span>hite</p>
+                      <p class="card-text text-black fst-italic">Master Chef</p>
+                      <div class="d-flex gap-2 justify-content-center">
+                            <i class="bi bi-twitter text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-facebook text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-instagram text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-linkedin text-black icon-link-hover link-yellow"></i>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card position-relative mb-5 mb-6">
+                    <img src="./public/images/chefs/chefs-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center position-absolute top-100 start-50 w-75 translate-middle bg-white">
+                        <p class="card-text text-black">Sar<span class="border-bottom pb-2 border-yellow border-1 ">ah Jhon</span>son</p>
+                        <p class="card-text text-black fst-italic">Patissier</p>
+                        <div class="d-flex gap-2 justify-content-center">
+                            <i class="bi bi-twitter text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-facebook text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-instagram text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-linkedin text-black icon-link-hover link-yellow"></i>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card  position-relative mb-6" >
+                    <img src="./public/images/chefs/chefs-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center position-absolute top-100 start-50 w-75 translate-middle bg-white ">
+                        <p class="card-text text-black">Willi<span class="border-bottom pb-2 border-yellow border-1 ">am And</span>erson</p>
+                        <p class="card-text text-black fst-italic">Cook</p>
+                        <div class="d-flex gap-2 justify-content-center">
+                            <i class="bi bi-twitter text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-facebook text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-instagram text-black icon-link-hover link-yellow"></i>
+                            <i class="bi bi-linkedin text-black icon-link-hover link-yellow"></i>
+                        </div>                
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="group-img-row d-flex flex-row justify-content-center align-items-center gap-4 pb-5">
-            <div class="img-row  ">
-                <div class="chef  "><img src="./public/images/chefs/chefs-1.jpg" alt="" width="350px"></div>
-                <div class="info-chef d-flex flex-column justify-content-center bg-white w-75 text-center pt-4 pb-4  ">
-                    <h5>Walter White</h5>
-                    <span>Master Chef</span>
-                    <div class="icons-chef d-flex flex-row gap-2 justify-content-center align-items-center">
-                        <div><i class="bi bi-twitter"></i></div>
-                        <div><i class="bi bi-facebook"></i></div>
-                        <div><i class="bi bi-instagram"></i></div>
-                        <div><i class="bi bi-linkedin"></i></div>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="img-row   ">
-                <div class="chef "><img src="./public/images/chefs/chefs-2.jpg" alt="" width="350px"></div>
-                <div class="info-chef d-flex flex-column justify-content-center bg-white w-75 text-center pt-4 pb-4">
-                    <h5>Walter White</h5>
-                    <span>Master Chef</span>
-                    <div class="icons-chef d-flex flex-row gap-2 justify-content-center align-items-center">
-                        <div><i class="bi bi-twitter"></i></div>
-                        <div><i class="bi bi-facebook"></i></div>
-                        <div><i class="bi bi-instagram"></i></div>
-                        <div><i class="bi bi-linkedin"></i></div>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="img-row   ">
-                <div class="chef "><img src="./public/images/chefs/chefs-3.jpg" alt="" width="350px"></div>
-                <div class="info-chef d-flex flex-column justify-content-center bg-white w-75 text-center pt-4 pb-4 ">
-                    <h5>Walter White</h5>
-                    <span>Master Chef</span>
-                    <div class="icons-chef d-flex flex-row gap-1 justify-content-center align-items-center">
-                        <div><i class="bi bi-twitter"></i></div>
-                        <div><i class="bi bi-facebook"></i></div>
-                        <div><i class="bi bi-instagram"></i></div>
-                        <div><i class="bi bi-linkedin"></i></div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-
     </div>
     <div class="info-perso">
         <div id="carouselExampleIndicators1" class="carousel slide">
