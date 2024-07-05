@@ -12219,7 +12219,7 @@ textarea.form-control-lg {
   opacity: 0.9;
   align-items: center;
   padding: 3vh 0vw;
-  width: 100vw;
+  width: 99vw;
   position: fixed;
   top: 0;
   z-index: 9999;
@@ -12401,6 +12401,322 @@ h3, .h3 {
   font-weight: bolder;
 }
 
+.contact-forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-forms button {
+  border: none;
+  color: #fff;
+  background-color: #ffb03b;
+  border-radius: 20px;
+  padding: 1.5vh 2vw;
+  font-weight: bolder;
+}
+.contact-forms button:hover {
+  background-color: #ffa012;
+}
+
+.btn-message {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 85vw;
+  padding: 6vh 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form .forms-row1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+}
+form .forms-row1 input {
+  padding: 1vh;
+  width: 50%;
+}
+form .forms-row2 input {
+  padding: 1vh;
+  width: 100%;
+}
+form .forms-row3 textarea {
+  padding-bottom: 20vh;
+  width: 100%;
+}
+
+.row-info-rest {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  justify-content: space-around;
+  padding: 3vh 0vw 1vh;
+  box-shadow: 0 4px 8px 0 rgba(170, 168, 168, 0.2), 0 10px 20px 0 rgba(161, 157, 157, 0.19);
+}
+.row-info-rest .info-rest {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 1vw;
+}
+.row-info-rest .info-rest i {
+  color: #ffa012;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 1vh 1vw;
+  background-color: rgba(250, 203, 133, 0.6156862745);
+}
+.row-info-rest .info-rest i:hover {
+  background-color: #ffb03b;
+  color: #fff;
+}
+
+.Menu {
+  padding: 30px;
+}
+.Menu p {
+  color: #8a8888;
+  font-style: italic;
+  font-size: small;
+}
+.Menu h3, .Menu .h3 {
+  font-weight: bolder;
+  padding-bottom: 3vh;
+  text-align: center;
+}
+.Menu h5, .Menu .h5 {
+  color: #ffb03b;
+}
+.Menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.btn-menu-tasty {
+  border-radius: 50px;
+  border: 1px solid #ffb03b;
+  background: white;
+  color: #ffb03b;
+}
+.btn-menu-tasty:hover {
+  background-color: #ffb03b;
+  color: white;
+}
+.btn-menu-tasty:focus {
+  background-color: #ffb03b;
+  color: white;
+}
+
+.book-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  padding-bottom: 5vh;
+}
+.book-table .para_book {
+  text-align: center;
+}
+.book-table .para_book p {
+  width: 40vw;
+}
+.book-table button {
+  border: none;
+  color: #fff;
+  background-color: #ffb03b;
+  border-radius: 20px;
+  padding: 1.5vh 2vw;
+  font-weight: bolder;
+  text-align: center;
+}
+.book-table button:hover {
+  background-color: #ffa012;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  width: 75vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  width: 70vw;
+}
+.form-row input {
+  width: 22vw;
+  padding: 1.5vh 2vw;
+}
+.form-row textarea {
+  width: 100%;
+  padding-bottom: 20vh;
+}
+
+.info-perso {
+  background-image: url(../images/testimonials-bg.jpg);
+  height: 80vh;
+  background-position: cover;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 8vh;
+}
+.info-perso::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #0e0d0d;
+  opacity: 0.5;
+}
+
+.info-img {
+  color: white;
+}
+.info-img h3, .info-img .h3 {
+  color: #fff;
+  padding-top: 2vh;
+}
+.info-img h6, .info-img .h6 {
+  font-size: small;
+}
+.info-img img {
+  border-radius: 50%;
+  width: 10vw;
+  border: 7px solid rgba(78, 67, 58, 0.631372549);
+}
+
+.para-gallery p {
+  width: 40vw;
+}
+
+.gallery-row {
+  justify-content: center;
+}
+.gallery-row div {
+  overflow: hidden;
+}
+.gallery-row img {
+  width: 24vw;
+  transition: all 0.4s ease;
+}
+.gallery-row img:hover {
+  transform: scale(1.2);
+}
+
+.events {
+  background-image: url(../images/events-bg.jpg);
+  height: 100vh;
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 12vh;
+}
+.events::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #0e0d0d;
+  opacity: 0.5;
+}
+
+.row-events {
+  align-items: center;
+  display: flex;
+  gap: 3vw;
+  flex-direction: row;
+  width: 90vw;
+  color: #fff;
+}
+.row-events span {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+
+.chefs {
+  background-image: url(../images/chefs-bg.jpg);
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.chefs::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.sepecial-menu {
+  padding: 10px 12px 10px 28px;
+}
+.sepecial-menu .title-special {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  text-align: center;
+}
+.sepecial-menu .btn-special {
+  color: rgba(5, 5, 5, 0.7960784314);
+  font-weight: bold;
+}
+.sepecial-menu .btn-special:hover {
+  color: #ffb03b;
+}
+.sepecial-menu .btn-special:focus {
+  color: #ffb03b;
+}
+.sepecial-menu .right-special {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  gap: 2vh;
+  width: 45vw;
+}
+.sepecial-menu .right-special p {
+  text-align: start;
+}
+.sepecial-menu h3, .sepecial-menu .h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.sepecial-menu p {
+  opacity: 0.5;
+}
+
+.nav {
+  text-align: start;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -12411,6 +12727,7 @@ h3, .h3 {
   background-color: #35322d;
   padding: 4vh 0vw;
   color: #fff;
+  width: 99vw;
 }
 .footer h3, .footer .h3 {
   color: #ffb03b;
