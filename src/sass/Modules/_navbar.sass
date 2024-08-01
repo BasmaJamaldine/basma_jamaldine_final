@@ -21,8 +21,6 @@
         display: block
         color: #fff
         font-size: 24px
-        @media (min-width: 768px) 
-            display: none 
     .menu-right 
         display: flex
         flex-direction: column
@@ -56,21 +54,6 @@
                     background-color: #ffa012
     #Check:checked ~ .menu-right .menu 
         display: flex
-    @media (min-width: 768px) 
-        .menu-right 
-            flex-direction: row
-            align-items: center
-            .menu 
-                display: flex
-                flex-direction: row
-                position: static
-                box-shadow: none
-                gap: 2vw
-            
-            .btn-table 
-                margin-left: 20px
-        .label 
-            display: none
 a 
     text-decoration: none
     color: #ffff
