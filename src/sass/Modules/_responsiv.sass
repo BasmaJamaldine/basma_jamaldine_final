@@ -1,159 +1,172 @@
 @media (max-width:428px)
-    // nav-bar
-    .menu-right
-        .menu
-            display: none !important
-            flex-direction: column !important
-            align-items: start !important
-            padding-left: 50px !important
-            padding-top: 50px !important
-            background-color: white !important
-            width: 99vw !important
-            height: 100vh !important
-            position: fixed !important
-            z-index: 999 !important
-            transition: 2s !important
-            top: 0 !important
-            left: 0 !important
-            border-radius: 20px !important
-            gap: 3vh !important
-            a
-                color: #0c0c0c
-        .icons-none
-            display: flex !important
-            text-align: end  !important
-    .label , .icons-none
-        display: flex
-    i
-        color: #fff
-        font-size: xx-large
-    #Check:checked ~ .menu-right .menu
-        display: flex !important
+        .menu-bar 
+            .menu-right 
+                flex-direction: row
+                align-items: center
+                .menu 
+                    display: flex
+                    flex-direction: row
+                    position: static
+                    box-shadow: none
+                    gap: 2vw
+                .btn-table 
+                    margin-left: 20px
+                    margin-top: 0
+            .label 
+                display: none
         
-    .carousel1
-        h2
-            font-size: 10px
-        p
-            font-size: small
+    
+    // // nav-bar
+    // .menu-right
+    //     .menu
+    //         display: none !important
+    //         flex-direction: column !important
+    //         align-items: start !important
+    //         padding-left: 50px !important
+    //         padding-top: 50px !important
+    //         background-color: white !important
+    //         width: 99vw !important
+    //         height: 100vh !important
+    //         position: fixed !important
+    //         z-index: 999 !important
+    //         transition: 2s !important
+    //         top: 0 !important
+    //         left: 0 !important
+    //         border-radius: 20px !important
+    //         gap: 3vh !important
+    //         a
+    //             color: #0c0c0c
+    //     .icons-none
+    //         display: flex !important
+    //         text-align: end  !important
+    // .label , .icons-none
+    //     display: flex
+    // i
+    //     color: #fff
+    //     font-size: xx-large
+    // #Check:checked ~ .menu-right .menu
+    //     display: flex !important
+        
+    // .carousel1
+    //     h2
+    //         font-size: 10px
+    //     p
+    //         font-size: small
 
-    .carousel1
-        p
-            width: 40vw
-    // about
-    .about
-        flex-direction: column
-    .section-icons-para
-        width: 90vw
+    // .carousel1
+    //     p
+    //         width: 40vw
+    // // about
+    // .about
+    //     flex-direction: column
+    // .section-icons-para
+    //     width: 90vw
        
    
-    .videos
-        video
-            width: 100vw !important
+    // .videos
+    //     video
+    //         width: 100vw !important
 
-    // chosse rest
+    // // chosse rest
         
-    .choose-rest
-        p
-            width: 85vw
-    .box-group
-        flex-direction: column !important
-        gap: 4vh
-        .box
-            width: 95vw
+    // .choose-rest
+    //     p
+    //         width: 85vw
+    // .box-group
+    //     flex-direction: column !important
+    //     gap: 4vh
+    //     .box
+    //         width: 95vw
 
-    // menu
-    .show-all , .starters , .salads , .special
-        flex-direction: column !important
-        gap: 1vh !important
-    // special
-    .sepecial-menu
-        padding: 0vh 3vw
-        .groud-special 
-            flex-direction: column !important
-        .btn-special
-            text-align: start
-            &:focus
-                background-color:  #ffb03b
-                color: #ffff
-    .title-special
-        p
-         width: 100vw
-    .img-special
-        flex-direction: column !important
-        flex-direction: column-reverse !important
-        div
-            img
-                width: 90vw !important
-        .right-special
-            width: 90vw
-    // Book
-    .book-table
-        .para_book
-            p
-                width: 90vw
-    .form-row
-        flex-direction: column !important
-        width: 70vw
-        input
-            width: 100%
-    .form-group
-        width: 85vw
-        gap: 4vh
-    // gallery 
-    .para-gallery 
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
-        h2
-            width: 50vw
-            text-align: center
-        p
-            width: 70vw
-    .gallery-row
-        flex-direction: column !important
-        div
-            overflow: none
-        img
-            width: 90vw !important
-            transition: none
-            &:hover
-                transform: none
-    //CONTAT US
-    .contact
-        .contact-para
-            p
-                width: 99vw !important
-        a
-            iframe
-                width: 100vw !important
-                height: 50vh !important
-    .row-info-rest
-        flex-direction: column !important
-        justify-content: start !important
-        align-items: start !important
-        width: 90vw
-        padding-left: 9vw !important
-        padding-top: 5vh
-        div
-            i
-                justify-content: center
-                align-items: center
-    .info-rest
-        gap: 4vw !important
-    form
-        width: 90vw !important
+    // // menu
+    // .show-all , .starters , .salads , .special
+    //     flex-direction: column !important
+    //     gap: 1vh !important
+    // // special
+    // .sepecial-menu
+    //     padding: 0vh 3vw
+    //     .groud-special 
+    //         flex-direction: column !important
+    //     .btn-special
+    //         text-align: start
+    //         &:focus
+    //             background-color:  #ffb03b
+    //             color: #ffff
+    // .title-special
+    //     p
+    //      width: 100vw
+    // .img-special
+    //     flex-direction: column !important
+    //     flex-direction: column-reverse !important
+    //     div
+    //         img
+    //             width: 90vw !important
+    //     .right-special
+    //         width: 90vw
+    // // Book
+    // .book-table
+    //     .para_book
+    //         p
+    //             width: 90vw
+    // .form-row
+    //     flex-direction: column !important
+    //     width: 70vw
+    //     input
+    //         width: 100%
+    // .form-group
+    //     width: 85vw
+    //     gap: 4vh
+    // // gallery 
+    // .para-gallery 
+    //     display: flex
+    //     flex-direction: column
+    //     justify-content: center
+    //     align-items: center
+    //     h2
+    //         width: 50vw
+    //         text-align: center
+    //     p
+    //         width: 70vw
+    // .gallery-row
+    //     flex-direction: column !important
+    //     div
+    //         overflow: none
+    //     img
+    //         width: 90vw !important
+    //         transition: none
+    //         &:hover
+    //             transform: none
+    // //CONTAT US
+    // .contact
+    //     .contact-para
+    //         p
+    //             width: 99vw !important
+    //     a
+    //         iframe
+    //             width: 100vw !important
+    //             height: 50vh !important
+    // .row-info-rest
+    //     flex-direction: column !important
+    //     justify-content: start !important
+    //     align-items: start !important
+    //     width: 90vw
+    //     padding-left: 9vw !important
+    //     padding-top: 5vh
+    //     div
+    //         i
+    //             justify-content: center
+    //             align-items: center
+    // .info-rest
+    //     gap: 4vw !important
+    // form
+    //     width: 90vw !important
 
-        .forms-row1
-            
-            flex-direction: column
-            gap: 3vw
-            input
-               
-                width: 100%
-    // EVENTS
-    .row-events
-        flex-direction: column !important
-        height: 130vh !important
+    //     .forms-row    //         flex-direction: column
+    //         gap: 3vw
+    //         input    //             width: 100%
+    // // EVENTS
+    // .row-events
+    //     flex-direction: column !important
+    //     height: 130vh !important
         
         
